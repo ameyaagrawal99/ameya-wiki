@@ -306,6 +306,15 @@ def build_internal_notes():
     if not notes:
         return
 
+    # Append private pages (visibility: private)
+    private_pages = [
+        WIKI_PAGES / "working-with-claude.md",
+    ]
+    for pp in private_pages:
+        if pp.exists():
+            pp_md = strip_frontmatter(pp.read_text(encoding="utf-8"))
+            notes.append(pp_md)
+
     content_md = "# Internal Wiki Notes\n\n*Not indexed. Direct URL only.*\n\n" + "\n\n".join(notes)
     content_html, _ = md_to_html(content_md)
     content_html = linkify_bare_urls(content_html)
