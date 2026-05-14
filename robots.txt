@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /internal/
+Sitemap: https://ameyaagrawal99.github.io/ameya-wiki/sitemap.xml

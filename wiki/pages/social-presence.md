@@ -9,22 +9,25 @@ updated: 2026-05-14
 
 ## Platform Overview
 
-| Platform | Handle / URL | Status | Notes |
+| Platform | Link | Reach | Notes |
 |---|---|---|---|
-| LinkedIn | linkedin.com/in/ameyaagrawal | Active | 10K followers, 500+ connections |
-| Twitter/X | x.com/ameyaagrawal | Active | Login-walled — content not fetchable |
-| GitHub | github.com/ameyaagrawal99 | Active | 10 repos, Python + TypeScript |
-| YouTube (Personal) | @ameyaagrawal9567 | Active | Channel details not publicly fetchable |
-| YouTube (SkillSlate) | @SkillSlate | Active | Organization channel |
-| Facebook | facebook.com/ameyaagrawal99 | Active | Publicly limited |
-| Instagram | @ameyaagrawal | Active | Not fetched yet |
-| Blog | blog.ameya.page | Active | 5+ posts, May 2026 |
-| Website | ameya.page | Active | Central hub |
+| LinkedIn | [linkedin.com/in/ameyaagrawal](https://www.linkedin.com/in/ameyaagrawal/) | 10K followers, 500+ connections | Most active professional platform |
+| Blog | [blog.ameya.page](https://blog.ameya.page/) | Newsletter subscribers | Long-form essays on leadership, AI, psychology |
+| Website | [ameya.page](https://ameya.page/) | — | Central personal hub |
+| GitHub | [github.com/ameyaagrawal99](https://github.com/ameyaagrawal99) | — | 10 repos, Python + TypeScript |
+| Medium | [ameyaagrawal.medium.com](https://ameyaagrawal.medium.com/) | 101 followers | 10 articles (2020–2025) |
+| Twitter/X | [x.com/ameyaagrawal](https://x.com/ameyaagrawal) | — | Login-walled — content not yet ingested |
+| YouTube (Personal) | [youtube.com/@ameyaagrawal9567](https://www.youtube.com/@ameyaagrawal9567) | — | Personal channel |
+| YouTube (SkillSlate) | [youtube.com/@SkillSlate](https://www.youtube.com/@SkillSlate) | — | SkillSlate Foundation channel |
+| Instagram | [instagram.com/ameyaagrawal](https://www.instagram.com/ameyaagrawal/) | — | Login-walled |
+| Facebook | [facebook.com/ameyaagrawal99](https://www.facebook.com/ameyaagrawal99/) | — | Personal profile |
+| Facebook (Book) | [facebook.com/aleapwithin](https://www.facebook.com/aleapwithin/) | — | *A Leap Within* book page |
+| Goodreads | [goodreads.com/author/Ameya_Agrawal](https://www.goodreads.com/author/quotes/13789641.Ameya_Agrawal) | 18 followers | *A Leap Within* — 45 ratings |
 
 ## Strongest Public Presence
 
 1. **LinkedIn** — 10K followers, professional content on leadership and org culture
-2. **Blog** — Long-form essays on leadership, psychology, AI (blog.ameya.page)
+2. **Blog** — Long-form essays on leadership, psychology, AI ([blog.ameya.page](https://blog.ameya.page/))
 3. **GitHub** — Active builder, 10 repos, real-world AI tools
 
 ## Content Themes Across Platforms
@@ -34,12 +37,3 @@ updated: 2026-05-14
 - Social impact and disability inclusion
 - Personal productivity (tools he builds)
 - Satire and humor about workplace dynamics
-
-## Sources Not Yet Fetchable
-
-- **Twitter/X** — login required for post content
-- **YouTube** — video listings not scraped (JavaScript-rendered)
-- **Facebook** — login-walled
-- **Instagram** — login-walled
-
-To expand these, add exported data to `raw/` and run `wiki-ingest`.

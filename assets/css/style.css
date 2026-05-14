@@ -253,6 +253,46 @@ body { font-family: var(--font-body); color: var(--ink); background: var(--surfa
   margin-left: 4px;
 }
 
+/* ══════════════════════════════════════════════════════════════
+   TABLE OF CONTENTS — Wikipedia style (floats right)
+   ══════════════════════════════════════════════════════════════ */
+
+#toc {
+  float: right;
+  clear: right;
+  margin: 0 0 16px 24px;
+  padding: 10px 14px 12px;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  min-width: 180px;
+  max-width: 260px;
+  line-height: 1.5;
+}
+#toc-title {
+  font-family: var(--font-head);
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border-light);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--ink);
+}
+#toc .toc { margin: 0; }
+#toc ul { list-style: none; margin: 0; padding: 0; }
+#toc li { margin: 3px 0; }
+#toc li li { margin-left: 14px; font-size: 12px; }
+#toc a { color: var(--link); text-decoration: none; }
+#toc a:hover { text-decoration: underline; }
+
+@media (max-width: 600px) {
+  #toc { float: none; max-width: 100%; margin: 0 0 16px; }
+}
+
 /* ── Page footer ── */
 #page-footer {
   margin-top: 36px; padding-top: 12px;
