@@ -23,3 +23,10 @@
 ### Social Presence
 - [[social-presence]] — Platform-by-platform overview; LinkedIn 10K followers; active on 8+ platforms
 - [[linkedin-profile]] — Professional profile detail: roles, education, services, featured posts
+
+### Maintenance
+- [[lint-2026-05-14]] — Lint audit: 0 errors, 1 warning, 4 info; 3 cross-refs added
+- [[audit-professional-experience-2026-05-14]] — PASS: 13/15 supported, 2 minor partials, 0 errors
+- [[audit-achievements-awards-2026-05-14]] — PASS: 18/20 supported, 2 minor partials, 0 errors
+- [[audit-mgss-2026-05-14]] — PASS after fix: CEO title corrected to Head of Strategy and Business Development
+- [[audit-identity-2026-05-14]] — PASS: Harvard row citation added

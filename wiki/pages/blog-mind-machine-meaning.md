@@ -18,16 +18,11 @@ Ameya's blog is a personal essay collection exploring the intersection of leader
 
 | Title | Date | Categories |
 |---|---|---|
-| Judgment Vacuum: 5 Warning Signs Senior Leaders Are Being De-skilled |  |  |
-| Farmer Leader: 7 Practical Lessons for Patient Leadership |  |  |
-| College Education in India: 7 Hard Truths in the AI Era |  |  |
-| Inferiority and Superiority Complex: 5 Signs They Come From the Same Wound |  |  |
-| Lucky Loyalty Effect at Work: 5 Ways Loyalty Gets Mistaken for Merit |  |  |
-| Judgment Vacuum: 5 Warning Signs Senior Leaders Are Being De-skilled |  |  |
-| Farmer Leader: 7 Practical Lessons for Patient Leadership |  |  |
-| College Education in India: 7 Hard Truths in the AI Era |  |  |
-| Inferiority and Superiority Complex: 5 Signs They Come From the Same Wound |  |  |
-
+| Judgment Vacuum: 5 Warning Signs Senior Leaders Are Being De-skilled | May 1, 2026 | Leadership, Mindset |
+| Farmer Leader: 7 Practical Lessons for Patient Leadership | April 26, 2026 | Leadership |
+| College Education in India: 7 Hard Truths in the AI Era | April 25, 2026 | Technology, AI, Future of Work |
+| Inferiority and Superiority Complex: 5 Signs They Come From the Same Wound | April 19, 2026 | Psychology, Mindset |
+| Lucky Loyalty Effect at Work: 5 Ways Loyalty Gets Mistaken for Merit | April 10, 2026 | Leadership, Psychology |
 
 ## Recurring Themes
 

@@ -42,3 +42,27 @@ Recent entries: `grep "^## \[" log.md | tail -10`
 ## [2026-05-14] update | medium-writing — created (10 articles listed)
 ## [2026-05-14] update | skillslate-foundation — enriched with website mission/vision
 ## [2026-05-14] update | overview — full rewrite with career arc table and expanded impact numbers
+
+## [2026-05-14] lint | 0 errors, 1 warning, 4 info
+Report: [[lint-2026-05-14]]
+Fixed: cross-refs mgss↔skillslate, professional-experience→achievements-awards, media-coverage→a-leap-within
+
+## [2026-05-14] audit | [[professional-experience]] — 13 supported, 0 unsupported, 2 partial, 0 uncited
+Report: [[audit-professional-experience-2026-05-14]]
+Fixed: none
+
+## [2026-05-14] audit | [[achievements-awards]] — 18 supported, 0 unsupported, 2 partial, 0 uncited
+Report: [[audit-achievements-awards-2026-05-14]]
+Fixed: none
+
+## [2026-05-14] audit | [[mgss-mahatma-gandhi-seva-sangh]] — 13 supported, 0 unsupported, 1 partial, 0 uncited
+Report: [[audit-mgss-2026-05-14]]
+Fixed: CEO role title → Head of Strategy and Business Development
+
+## [2026-05-14] audit | [[identity-ameya-agrawal]] — 5 supported, 0 unsupported, 1 partial, 1 uncited
+Report: [[audit-identity-2026-05-14]]
+Fixed: Harvard/LSE education rows — added [^5] citation to ameya.page
+
+## [2026-05-14] update | achievements-awards, identity-ameya-agrawal
+Reason: Separated Emerald (academic publisher) from press media coverage in both pages
+Source: raw/ameya-agrawal-cv.pdf — Achievements section distinguishes "Published Research Article in DLO Journal, Emerald Publishing" from press features

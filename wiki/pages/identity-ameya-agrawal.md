@@ -21,7 +21,7 @@ updated: 2026-05-14
 
 ## Profile Summary
 
-IIM Kozhikode Gold Medalist with **8 years of experience** in program management, change management, and organizational transformation. Led projects to win two National Awards from the President of India. Published author, national record holder, and public speaker featured in Forbes, Emerald, Financial Express, Poets & Quants, and Business Standard.[^4]
+IIM Kozhikode Gold Medalist with **8 years of experience** in program management, change management, and organizational transformation. Led projects to win two National Awards from the President of India. Published author, national record holder, and public speaker featured in Forbes, Financial Express, Poets & Quants, and Business Standard; published in Emerald (DLO Journal).[^4]
 
 ## Personal Background
 
@@ -48,8 +48,8 @@ IIM Kozhikode Gold Medalist with **8 years of experience** in program management
 |---|---|---|---|
 | MBA | IIM Kozhikode | 2024 | Gold Medalist |
 | Bachelor of Engineering (Electronics & Telecom) | MIT College of Engineering, Pune (SPPU) | 2016 | Distinction |
-| Harvard University | — | 2021 | Declined admission |
-| LSE | — | 2021 | Declined admission |
+| Harvard University | — | 2021 | Declined admission[^5] |
+| LSE | — | 2021 | Declined admission[^5] |
 
 **Why IIM KO:** After 6 years in NGO leadership, felt he had "reached a ceiling in terms of growth" and needed structured learning for larger organizational challenges. Drawn to the institution's values: *Satyam, Nityam, Purnam* (Truth, Sustainability, Wholeness).[^1]
 
@@ -95,3 +95,4 @@ Business Process Improvement · Stakeholder Engagement · Project & Program Mana
 [^2]: https://ameyaagrawal.medium.com/ — Medium bio
 [^3]: https://vidhyathakkar.com/interview-with-ameya-agrawal/ — Early career interview
 [^4]: raw/ameya-agrawal-cv.pdf — Profile Summary and International Experience sections
+[^5]: https://ameya.page — Bio section and tagline referencing Harvard and LSE

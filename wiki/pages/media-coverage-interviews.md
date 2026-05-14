@@ -59,7 +59,7 @@ Key quote: *"Hard work doesn't guarantee success, dedication and persistence do.
 ## IndiaCafe24 — Author Profile (Student Era)
 
 **URL:** [Read interview ↗](https://www.indiacafe24.com/interviews/authors/get-motivated-with-author-ameya-agrawal/)  
-Interview during final-year engineering. Described book *A Leap Within* structure, publishing journey, and motivations.  
+Interview during final-year engineering. Described [[a-leap-within]] book structure, publishing journey, and motivations.  
 Key quote: *"A person who don't know to settle for less."*[^5]
 
 ## Other Publications

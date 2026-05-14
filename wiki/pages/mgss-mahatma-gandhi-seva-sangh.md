@@ -8,8 +8,9 @@ updated: 2026-05-14
 # Mahatma Gandhi Seva Sangh (MGSS)
 
 **Founded:** 1994, Parbhani, Maharashtra  
-**Ameya's Role:** CEO (2021–2023)  
-**Award:** Best NGO in India 2022 — Department of Disabilities, Government of India
+**Ameya's Role:** Head of Strategy and Business Development (2021–2023)  
+**Award:** Best NGO in India 2022 — Department of Disabilities, Government of India  
+**See also:** [[skillslate-foundation]] — Ameya's other flagship social initiative
 
 ## What MGSS Does
 

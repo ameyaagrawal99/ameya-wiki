@@ -29,7 +29,8 @@ updated: 2026-05-14
 
 - **Book:** *A Leap Within* — self-help book, 2,000+ copies sold, 1,800+ quotes and articles authored[^1]
 - **Research Article** published in DLO Journal, Emerald Publishing[^1]
-- **Media coverage:** Forbes, Financial Express, Poets & Quants, Business Standard, Emerald[^1]
+- **Press coverage:** Forbes, Financial Express, Poets & Quants, Business Standard[^1]
+- **Academic publishing:** DLO Journal, Emerald Publishing (research article)[^1]
 
 ## Community & Social Impact
 

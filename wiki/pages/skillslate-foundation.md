@@ -10,7 +10,8 @@ updated: 2026-05-14
 **Website:** https://www.skillslate.org  
 **YouTube:** https://youtube.com/@SkillSlate  
 **Founder:** Ameya Agrawal  
-**Active period:** April 2020 – March 2021 (as startup); ongoing as foundation
+**Active period:** April 2020 – March 2021 (as startup); ongoing as foundation  
+**See also:** [[mgss-mahatma-gandhi-seva-sangh]] — Ameya's other flagship social initiative
 
 ## Mission & Vision
 

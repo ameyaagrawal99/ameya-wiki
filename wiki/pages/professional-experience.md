@@ -70,7 +70,7 @@ Leadership & Team Management
 - Tools: JIRA, Trello, ClickUp, SQL, Microsoft TFS[^1]
 
 ### Recognition
-- **ACE Award** — Highest recognition in Accenture for retaining a **Diamond Client ($100M+ revenue)** project[^1]
+- **ACE Award** — Highest recognition in Accenture for retaining a **Diamond Client ($100M+ revenue)** project (see [[achievements-awards]])[^1]
 - **Finalist**: Accenture National Level Hackathon from 1,100+ participants for MVP of an insurance product[^1]
 - Received **2 Employee Innovation Recognitions**[^1]
 
