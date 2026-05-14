@@ -3,94 +3,217 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ameya Agrawal — Personal Wiki</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <title>Overview — Ameya Agrawal Wiki</title>
+  <meta name="description" content="Personal wiki of Ameya Agrawal — Overview">
+  <link rel="stylesheet" href="/ameya-wiki/assets/css/style.css">
 </head>
 <body>
-  <div id="header">
-    <div id="header-inner">
-      <div id="logo">
-        <a href="?page=overview">
-          <span id="logo-icon">⬡</span>
-          <span id="logo-title">Ameya Agrawal</span>
-          <span id="logo-sub">Personal Wiki</span>
-        </a>
-      </div>
-      <div id="search-wrap">
-        <input type="text" id="search" placeholder="Search wiki…" autocomplete="off">
-        <div id="search-results"></div>
-      </div>
+
+<div id="header">
+  <div id="header-inner">
+    <div id="logo">
+      <a href="/ameya-wiki/">
+        <span id="logo-icon">⬡</span>
+        <span id="logo-title">Ameya Agrawal</span>
+        <span id="logo-sub">Personal Wiki</span>
+      </a>
+    </div>
+    <div id="search-wrap">
+      <input type="text" id="search" placeholder="Search wiki…" autocomplete="off" aria-label="Search">
+      <div id="search-results" role="listbox"></div>
     </div>
   </div>
+</div>
 
-  <div id="layout">
-    <nav id="sidebar">
-      <div class="nav-section">
-        <div class="nav-label">Overview</div>
-        <ul>
-          <li><a href="?page=overview" class="nav-link" data-page="overview">Overview</a></li>
-        </ul>
+<div id="layout">
+  <nav id="sidebar">
+<div id="cv-wrap"><a class="cv-btn" href="/ameya-wiki/assets/cv/ameya-agrawal-cv.pdf" target="_blank" rel="noopener">⬇ Download CV</a></div>
+<div class="nav-section"><div class="nav-label">Overview</div><ul>
+<li><a href="/ameya-wiki/" class="active">Overview</a></li>
+</ul></div>
+<div class="nav-section"><div class="nav-label">Identity</div><ul>
+<li><a href="/ameya-wiki/pages/identity-ameya-agrawal.html">Profile & Bio</a></li>
+<li><a href="/ameya-wiki/pages/achievements-awards.html">Achievements & Awards</a></li>
+</ul></div>
+<div class="nav-section"><div class="nav-label">Writing</div><ul>
+<li><a href="/ameya-wiki/pages/blog-mind-machine-meaning.html">Blog — Mind, Machine & Meaning</a></li>
+<li><a href="/ameya-wiki/pages/a-leap-within.html">A Leap Within (Book)</a></li>
+<li><a href="/ameya-wiki/pages/medium-writing.html">Medium Articles</a></li>
+<li><a href="/ameya-wiki/pages/media-coverage-interviews.html">Media & Interviews</a></li>
+</ul></div>
+<div class="nav-section"><div class="nav-label">Work</div><ul>
+<li><a href="/ameya-wiki/pages/professional-experience.html">Professional Experience</a></li>
+<li><a href="/ameya-wiki/pages/mgss-mahatma-gandhi-seva-sangh.html">MGSS</a></li>
+<li><a href="/ameya-wiki/pages/skillslate-foundation.html">SkillSlate Foundation</a></li>
+<li><a href="/ameya-wiki/pages/github-projects.html">GitHub Projects</a></li>
+<li><a href="/ameya-wiki/pages/certifications-skills.html">Certifications & Skills</a></li>
+</ul></div>
+<div class="nav-section"><div class="nav-label">Ideas</div><ul>
+<li><a href="/ameya-wiki/pages/ideas-recurring-themes.html">Recurring Themes</a></li>
+</ul></div>
+<div class="nav-section"><div class="nav-label">Social</div><ul>
+<li><a href="/ameya-wiki/pages/social-presence.html">All Platforms</a></li>
+<li><a href="/ameya-wiki/pages/linkedin-profile.html">LinkedIn</a></li>
+</ul></div>
+<div id="sidebar-footer"><div>Last updated: 2026-05-14</div><div><a href="https://github.com/ameyaagrawal99/ameya-wiki" target="_blank" rel="noopener">View on GitHub ↗</a></div></div>
+</nav>
+  <main id="content">
+    <div id="page-header">
+      <div id="breadcrumb"><a href="/ameya-wiki/">Wiki</a> › Overview › Overview</div>
+      <div id="page-actions">
+        <a href="https://github.com/ameyaagrawal99/ameya-wiki/edit/main/wiki/overview.md" target="_blank" rel="noopener" title="Edit this page on GitHub">Edit ✎</a>
       </div>
-      <div class="nav-section">
-        <div class="nav-label">Identity</div>
-        <ul>
-          <li><a href="?page=identity-ameya-agrawal" class="nav-link" data-page="identity-ameya-agrawal">Profile & Bio</a></li>
-          <li><a href="?page=achievements-awards" class="nav-link" data-page="achievements-awards">Achievements & Awards</a></li>
-        </ul>
-      </div>
-      <div class="nav-section">
-        <div class="nav-label">Writing & Content</div>
-        <ul>
-          <li><a href="?page=blog-mind-machine-meaning" class="nav-link" data-page="blog-mind-machine-meaning">Blog — Mind, Machine & Meaning</a></li>
-          <li><a href="?page=a-leap-within" class="nav-link" data-page="a-leap-within">A Leap Within (Book)</a></li>
-          <li><a href="?page=medium-writing" class="nav-link" data-page="medium-writing">Medium Articles</a></li>
-          <li><a href="?page=media-coverage-interviews" class="nav-link" data-page="media-coverage-interviews">Media & Interviews</a></li>
-        </ul>
-      </div>
-      <div class="nav-section">
-        <div class="nav-label">Projects & Work</div>
-        <ul>
-          <li><a href="?page=professional-experience" class="nav-link" data-page="professional-experience">Professional Experience</a></li>
-          <li><a href="?page=mgss-mahatma-gandhi-seva-sangh" class="nav-link" data-page="mgss-mahatma-gandhi-seva-sangh">MGSS</a></li>
-          <li><a href="?page=skillslate-foundation" class="nav-link" data-page="skillslate-foundation">SkillSlate Foundation</a></li>
-          <li><a href="?page=github-projects" class="nav-link" data-page="github-projects">GitHub Projects</a></li>
-          <li><a href="?page=certifications-skills" class="nav-link" data-page="certifications-skills">Certifications & Skills</a></li>
-        </ul>
-      </div>
-      <div class="nav-section">
-        <div class="nav-label">Ideas & Insights</div>
-        <ul>
-          <li><a href="?page=ideas-recurring-themes" class="nav-link" data-page="ideas-recurring-themes">Recurring Themes</a></li>
-        </ul>
-      </div>
-      <div class="nav-section">
-        <div class="nav-label">Social Presence</div>
-        <ul>
-          <li><a href="?page=social-presence" class="nav-link" data-page="social-presence">All Platforms</a></li>
-          <li><a href="?page=linkedin-profile" class="nav-link" data-page="linkedin-profile">LinkedIn</a></li>
-        </ul>
-      </div>
-      <div id="sidebar-footer">
-        <div id="last-updated"></div>
-        <div><a href="https://github.com/ameyaagrawal99/ameya-wiki" target="_blank" rel="noopener">View on GitHub</a></div>
-      </div>
-    </nav>
+    </div>
+    <article id="article">
+      <h1>Ameya Agrawal — Overview</h1>
+<blockquote>
+<p>Evolving synthesis of everything in the wiki. Updated by wiki-ingest when sources shift the understanding.</p>
+</blockquote>
+<h2>Who He Is</h2>
+<p>Ameya Agrawal is a <strong>strategy leader, social entrepreneur, author, and builder</strong> based in Pune, India. He sits at an uncommon intersection: institutional strategy (Strategy Manager / Chief of Staff at MIT World Peace University), social impact at scale (125,000+ people through MGSS, 25,000+ through SkillSlate), active intellectual output (3 Forbes India articles, blog, Medium, book), and hands-on software building (10 GitHub repos).</p>
+<p>He is an IIM Kozhikode Gold Medalist (2024) and a BE in Electronics &amp; Telecom with Distinction (MIT COE Pune, 2016). He pursued his MBA alongside his wife Vrushali Agrawal, who was in the same cohort. A self-described "shy soul" who loves theatrical performance, he began writing at school age and holds a national record as the youngest engineering student to write a self-motivation book — <em>A Leap Within</em>, published at age 20–21.</p>
+<p>His decision to decline Harvard and LSE in 2021 in favour of building SkillSlate and leading MGSS is the defining biographical moment — validated by two Presidential National Awards.</p>
+<h2>The Arc of His Career</h2>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Period</th>
+<th>Focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Early writing &amp; book</td>
+<td>2014–2016</td>
+<td>Published <em>A Leap Within</em> during engineering</td>
+</tr>
+<tr>
+<td>Accenture (tech)</td>
+<td>2016–2020</td>
+<td>QA lead, Fortune 500, ACE Award</td>
+</tr>
+<tr>
+<td>SkillSlate (founder)</td>
+<td>2020–2021</td>
+<td>EdTech community, 25K+ people</td>
+</tr>
+<tr>
+<td>MGSS (social sector CEO)</td>
+<td>2021–2023</td>
+<td>Disability NGO, National Award, Akola Pattern</td>
+</tr>
+<tr>
+<td>MBA at IIM KO</td>
+<td>2023–2024</td>
+<td>Gold Medalist, Forbes articles, IIMKaleidoscope</td>
+</tr>
+<tr>
+<td>MIT Pune Strategy</td>
+<td>2024–now</td>
+<td>Chief of Staff, ₹3.9 Cr savings, Top Performer</td>
+</tr>
+</tbody>
+</table>
+<h2>Quantified Impact</h2>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>People impacted at MGSS</td>
+<td>125,000+ across 12 districts</td>
+</tr>
+<tr>
+<td>Citizens engaged in disability project</td>
+<td>6,000,000+</td>
+</tr>
+<tr>
+<td>Individuals in Akola socio-economic mapping</td>
+<td>1,500,000</td>
+</tr>
+<tr>
+<td>Individuals trained at SkillSlate</td>
+<td>25,000+ (4 countries)</td>
+</tr>
+<tr>
+<td>Social media sessions impact</td>
+<td>50,000+ individuals</td>
+</tr>
+<tr>
+<td>Social media likes</td>
+<td>30,000+</td>
+</tr>
+<tr>
+<td>Email list</td>
+<td>20,000+</td>
+</tr>
+<tr>
+<td>Field agents (census app)</td>
+<td>5,000+</td>
+</tr>
+<tr>
+<td>Professionals trained at MGSS</td>
+<td>3,000+</td>
+</tr>
+<tr>
+<td>Book copies sold (<em>A Leap Within</em>)</td>
+<td>2,000+</td>
+</tr>
+<tr>
+<td>Quotes/articles authored</td>
+<td>1,800+</td>
+</tr>
+<tr>
+<td>Hours of reflective content (Lyrics of Success)</td>
+<td>4,000+</td>
+</tr>
+<tr>
+<td>HR savings at MIT Pune</td>
+<td>₹2.4 Cr (recruitment) + ₹1.5 Cr (contracts)</td>
+</tr>
+<tr>
+<td>MGSS cost reduction</td>
+<td>75% → ₹7.5 Cr savings</td>
+</tr>
+<tr>
+<td>Insurance initiatives managed</td>
+<td>₹50 Cr+</td>
+</tr>
+</tbody>
+</table>
+<h2>Key Entities</h2>
+<ul>
+<li><a href="/ameya-wiki/pages/professional-experience.html">Professional Experience</a> — Full career detail with metrics</li>
+<li><a href="/ameya-wiki/pages/mgss-mahatma-gandhi-seva-sangh.html">MGSS</a> — National Award, Akola Pattern, 125K+ impact</li>
+<li><a href="/ameya-wiki/pages/skillslate-foundation.html">SkillSlate Foundation</a> — Social enterprise, 25K+ trained</li>
+<li><a href="/ameya-wiki/pages/github-projects.html">GitHub Projects</a> — brain2.0, card2contacts, 10 repos</li>
+<li><a href="/ameya-wiki/pages/blog-mind-machine-meaning.html">Blog — Mind, Machine &amp; Meaning</a> — Active essay blog</li>
+<li><a href="/ameya-wiki/pages/a-leap-within.html">A Leap Within (Book)</a> — Self-help book, national record</li>
+<li><a href="/ameya-wiki/pages/achievements-awards.html">Achievements &amp; Awards</a> — Awards, book, media features</li>
+<li><a href="/ameya-wiki/pages/media-coverage-interviews.html">Media &amp; Interviews</a> — Forbes, Poets &amp; Quants, press</li>
+</ul>
+<h2>Recurring Ideas</h2>
+<p>See <a href="/ameya-wiki/pages/ideas-recurring-themes.html">Recurring Themes</a>. Key threads:<br />
+1. Leadership de-skilling and judgment vacuum<br />
+2. AI's disruption of Indian higher education<br />
+3. Social impact over prestige/credential (Harvard decision)<br />
+4. Builder-for-self philosophy in software<br />
+5. "Entrepreneurship is a responsibility, not a profession"<br />
+6. Data-driven institutional management<br />
+7. Patience and long-term "farmer" leadership</p>
+    </article>
+    <div id="page-footer">Last updated: 2026-05-14</div>
+  </main>
+</div>
 
-    <main id="content">
-      <div id="page-header">
-        <div id="breadcrumb"></div>
-        <div id="page-actions">
-          <a id="edit-link" href="#" target="_blank" rel="noopener">Edit on GitHub</a>
-        </div>
-      </div>
-      <article id="article"></article>
-      <div id="page-footer">
-        <div id="last-modified"></div>
-      </div>
-    </main>
-  </div>
-
-  <script src="assets/js/main.js"></script>
+<script>
+  const BASE = "/ameya-wiki";
+</script>
+<script src="/ameya-wiki/assets/js/search.js"></script>
 </body>
 </html>

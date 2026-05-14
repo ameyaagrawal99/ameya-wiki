@@ -4,7 +4,7 @@ on:
   schedule:
     # Every Sunday at 6:00 AM UTC (11:30 AM IST)
     - cron: '0 6 * * 0'
-  workflow_dispatch:  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -26,16 +26,19 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml
+        run: pip install requests beautifulsoup4 lxml markdown
 
-      - name: Run wiki updater
+      - name: Fetch latest content from public sources
         run: python scripts/update_wiki.py
+
+      - name: Build static HTML site
+        run: python scripts/build_site.py
 
       - name: Commit and push if changed
         run: |
           git config user.name "wiki-bot"
           git config user.email "wiki-bot@users.noreply.github.com"
-          git add wiki/
+          git add .
           if git diff --staged --quiet; then
             echo "No changes — wiki is up to date."
           else
