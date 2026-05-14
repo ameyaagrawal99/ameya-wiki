@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ameya Agrawal — Personal Wiki</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <div id="header">
+    <div id="header-inner">
+      <div id="logo">
+        <a href="?page=overview">
+          <span id="logo-icon">⬡</span>
+          <span id="logo-title">Ameya Agrawal</span>
+          <span id="logo-sub">Personal Wiki</span>
+        </a>
+      </div>
+      <div id="search-wrap">
+        <input type="text" id="search" placeholder="Search wiki…" autocomplete="off">
+        <div id="search-results"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="layout">
+    <nav id="sidebar">
+      <div class="nav-section">
+        <div class="nav-label">Overview</div>
+        <ul>
+          <li><a href="?page=overview" class="nav-link" data-page="overview">Overview</a></li>
+        </ul>
+      </div>
+      <div class="nav-section">
+        <div class="nav-label">Identity</div>
+        <ul>
+          <li><a href="?page=identity-ameya-agrawal" class="nav-link" data-page="identity-ameya-agrawal">Profile & Bio</a></li>
+          <li><a href="?page=achievements-awards" class="nav-link" data-page="achievements-awards">Achievements & Awards</a></li>
+        </ul>
+      </div>
+      <div class="nav-section">
+        <div class="nav-label">Writing & Content</div>
+        <ul>
+          <li><a href="?page=blog-mind-machine-meaning" class="nav-link" data-page="blog-mind-machine-meaning">Blog — Mind, Machine & Meaning</a></li>
+          <li><a href="?page=a-leap-within" class="nav-link" data-page="a-leap-within">A Leap Within (Book)</a></li>
+          <li><a href="?page=medium-writing" class="nav-link" data-page="medium-writing">Medium Articles</a></li>
+          <li><a href="?page=media-coverage-interviews" class="nav-link" data-page="media-coverage-interviews">Media & Interviews</a></li>
+        </ul>
+      </div>
+      <div class="nav-section">
+        <div class="nav-label">Projects & Work</div>
+        <ul>
+          <li><a href="?page=professional-experience" class="nav-link" data-page="professional-experience">Professional Experience</a></li>
+          <li><a href="?page=mgss-mahatma-gandhi-seva-sangh" class="nav-link" data-page="mgss-mahatma-gandhi-seva-sangh">MGSS</a></li>
+          <li><a href="?page=skillslate-foundation" class="nav-link" data-page="skillslate-foundation">SkillSlate Foundation</a></li>
+          <li><a href="?page=github-projects" class="nav-link" data-page="github-projects">GitHub Projects</a></li>
+          <li><a href="?page=certifications-skills" class="nav-link" data-page="certifications-skills">Certifications & Skills</a></li>
+        </ul>
+      </div>
+      <div class="nav-section">
+        <div class="nav-label">Ideas & Insights</div>
+        <ul>
+          <li><a href="?page=ideas-recurring-themes" class="nav-link" data-page="ideas-recurring-themes">Recurring Themes</a></li>
+        </ul>
+      </div>
+      <div class="nav-section">
+        <div class="nav-label">Social Presence</div>
+        <ul>
+          <li><a href="?page=social-presence" class="nav-link" data-page="social-presence">All Platforms</a></li>
+          <li><a href="?page=linkedin-profile" class="nav-link" data-page="linkedin-profile">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div id="sidebar-footer">
+        <div id="last-updated"></div>
+        <div><a href="https://github.com/ameyaagrawal99/ameya-wiki" target="_blank" rel="noopener">View on GitHub</a></div>
+      </div>
+    </nav>
+
+    <main id="content">
+      <div id="page-header">
+        <div id="breadcrumb"></div>
+        <div id="page-actions">
+          <a id="edit-link" href="#" target="_blank" rel="noopener">Edit on GitHub</a>
+        </div>
+      </div>
+      <article id="article"></article>
+      <div id="page-footer">
+        <div id="last-modified"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
