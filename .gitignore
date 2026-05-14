@@ -1,3 +1,7 @@
 .DS_Store
 wiki/raw/
 node_modules/
+
+# Private wiki pages — Claude-only, never published
+wiki/pages/working-with-claude.md
+pages/working-with-claude.html

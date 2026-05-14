@@ -63,6 +63,16 @@ Fixed: CEO role title → Head of Strategy and Business Development
 Report: [[audit-identity-2026-05-14]]
 Fixed: Harvard/LSE education rows — added [^5] citation to ameya.page
 
+## [2026-05-14] ingest | session transcripts + memory — working style analysis
+Pages written: working-with-claude (private, visibility: private)
+Pages updated: index.md (added Working Style category)
+Source: memory/user-ameya-agrawal.md, session transcripts 2026-05-12 to 2026-05-14
+
 ## [2026-05-14] update | achievements-awards, identity-ameya-agrawal
 Reason: Separated Emerald (academic publisher) from press media coverage in both pages
 Source: raw/ameya-agrawal-cv.pdf — Achievements section distinguishes "Published Research Article in DLO Journal, Emerald Publishing" from press features
+
+## [2026-05-15] update | working-with-claude (Brain 2.0)
+Reason: Full rewrite from style guide to cognitive model — inner voice, mental models, decision heuristics, voice analysis, brainstorming patterns, self-update log
+Visibility: private (gitignored from public repo; Google Drive only)
+Source: session-transcripts-2026-05-12 to 2026-05-15, memory/user-ameya-agrawal.md, wiki/pages/ideas-recurring-themes.md, wiki/pages/blog-mind-machine-meaning.md
