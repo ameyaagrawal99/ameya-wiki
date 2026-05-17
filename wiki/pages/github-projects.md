@@ -2,14 +2,14 @@
 title: GitHub Projects
 tags: [github, code, projects, software, typescript, python]
 sources: [github-profile]
-updated: 2026-05-14
+updated: 2026-05-17
 ---
 
 # GitHub Projects
 
 **Profile:** [github.com/ameyaagrawal99](https://github.com/ameyaagrawal99)  
 **ORCID:** [0009-0007-0826-2610](https://orcid.org/0009-0007-0826-2610)  
-**Followers:** 1 | **Repos:** 10  
+**Followers:** 1 | **Repos:** 6  
 **Achievements:** Quickdraw, Pull Shark ×2, YOLO
 
 ## Primary Languages

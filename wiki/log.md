@@ -76,3 +76,5 @@ Source: raw/ameya-agrawal-cv.pdf — Achievements section distinguishes "Publish
 Reason: Full rewrite from style guide to cognitive model — inner voice, mental models, decision heuristics, voice analysis, brainstorming patterns, self-update log
 Visibility: private (gitignored from public repo; Google Drive only)
 Source: session-transcripts-2026-05-12 to 2026-05-15, memory/user-ameya-agrawal.md, wiki/pages/ideas-recurring-themes.md, wiki/pages/blog-mind-machine-meaning.md
+
+## [2026-05-17] update | Weekly automated refresh
