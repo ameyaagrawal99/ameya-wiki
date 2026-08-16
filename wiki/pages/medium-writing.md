@@ -2,7 +2,7 @@
 title: Medium Writing
 tags: [medium, writing, articles, leadership, ai, sustainability]
 sources: [medium-profile]
-updated: 2026-08-02
+updated: 2026-08-16
 ---
 
 # Medium Writing
