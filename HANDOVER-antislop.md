@@ -21,7 +21,7 @@ Repo `ameyaagrawal99/ameya-wiki`, branch `ccr-4ff3f933-j5d9h4`.
 | `CLAUDE.md` | antislop pointer block; its presence stops the core's first-run install wizard |
 
 ## How it loads
-Claude Code auto-discovers project skills in `.claude/skills/` at session start. Any session opened on this repo (local, cloud, Codex via the CLAUDE.md pointer) picks them up. Skills load at session start, so the session that installed them does not see them in its skill list.
+Claude Code auto-discovers project skills in `.claude/skills/` at session start. Any session opened on this repo (local, cloud, Codex via the CLAUDE.md pointer) picks them up. Verified: the six skills appeared in the skill list of the installing session right after the copy.
 
 ## Status
 - Done: files copied verbatim from upstream, reviewed (no network calls, no injected instructions; Python scripts are pure stdlib math). `contrast-check.py --selftest` passed (8/8 reference pairs).
