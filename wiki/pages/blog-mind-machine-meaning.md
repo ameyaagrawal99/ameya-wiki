@@ -2,7 +2,7 @@
 title: Blog — Mind, Machine and Meaning
 tags: [blog, writing, leadership, psychology, ai, content]
 sources: [blog-ameya-page]
-updated: 2026-10-18
+updated: 2026-10-25
 ---
 
 # Blog — Mind, Machine and Meaning
